@@ -1,0 +1,183 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heidelberg Spoken Word Christian Fellowship</title>
+    <link rel="stylesheet" href="website.css">
+    <link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <div class="logo-section">
+            
+            <img src="logo.png" class="logo-image">
+
+            <div>
+                <h1 class="site-title">Heidelberg Spoken Word Christian Fellowship</h1>
+                <p class="motto">"We will work until HE comes"</p>
+            </div>
+        </div>
+
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#livestream">Livestream</a>
+            <a href="#news">News</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- HERO -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h2>Welcome to Our Church, Family </h2>
+            <p>
+                Heidelberg Spoken Word Christian Fellowship is dedicated to spreading
+            the Gospel of Jesus Christ through worship, teaching, prayer,
+            and community outreach.
+            </p>
+
+            <button onclick="scrollToLivestream()">
+                Watch Livestream
+            </button>
+        </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="about" id="about">
+        <h2>About Us</h2>
+
+        <p>
+           A place of Prayer,Worship, Fellowship and Spiritual Growth. 
+        </p>
+
+        <div class="service-times">
+            <div class="card">
+                <h3>Sunday Service</h3>
+                <p>10:00 AM - 13:00 PM</p>
+            </div>
+
+            <div class="card">
+                <h3>Prayer and Quiet time</h3>
+                <p>Sunday 10:00 - 10:30PM</p>
+            </div>
+
+            <div class="card">
+                <h3>Youth Lessons</h3>
+                <p> Sunday 10:00 - 10:30 AM</p>
+            </div>
+        </div>
+    </section>
+
+   <!-- LIVESTREAM -->
+<section class="livestream" id="livestream">
+
+    <h2>Watch Our Live Service</h2>
+       <p> Join us live for worship, prayer, fellowship and the Word of God. Through the wbesite, youtube and facebook livestreaming
+    </p>
+
+    <!-- LIVE VIDEO PLAYER -->
+    <div class="video-container">
+
+        <iframe
+            width="100%"
+            height="400"
+            src="https://www.youtube.com/embed/live_stream?channel=YOUR_CHANNEL_ID"
+            title="Church Livestream"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen>
+        </iframe>
+
+    </div>
+
+    <!-- EXTRA BUTTONS -->
+    <div class="stream-links">
+
+        <div class="stream-card">
+
+            <h3>YouTube Channel</h3>
+
+            <a href="https://youtube.com/@HeidelbergSpokenWordFellowship"
+               target="_blank">
+
+                <i class="fa-brands fa-youtube"></i> YouTube
+
+            </a>
+
+        </div>
+
+        <div class="stream-card">
+
+            <h3>Facebook Page</h3>
+
+            <a href="https://facebook.com/profile.php?id=61578091835791&mibextid=rS40aB7S9Ucbxw6v"
+               target="_blank">
+
+                <i class="fa-brands fa-facebook"></i> Facebook
+
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+    <!-- NEWS -->
+    <section class="news" id="news">
+        <h2>Church News & Updates</h2>
+
+        <div class="news-container">
+            <img src="" alt="">
+
+            <div class="news-card">
+                <h3>Revival Meeting day 1</h3>
+                <p>
+                    Join us on the 17th of July fo an afternoon Service 14:00 - 17:00
+                </p>
+            </div>
+
+            <div class="news-card">
+                <h3>Revival Meeting day 2</h3>
+                <p>
+                    Join us on the second day of our revival on the 18th of July Morning Service 9:00 - 12:00 and Afternoon Service 14:00 -17:00
+                </p>
+            </div>
+
+            <div class="news-card">
+                <h3>Revival Meeting day 3</h3>
+                <p>
+                    Last day of our Revival 19 July Morning Service from 9:00 - 13:00 
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact" id="contact">
+        <h2>Contact Us</h2>
+
+        <div class="contact-box">
+            <p><strong>Email:</strong> hswfchurch@email.com</p>
+            <p><strong>Phone:</strong> <i class="fa-solid fa-phone"></i>+27 69 675 2215</p>
+            <p><strong>Location:</strong> Oasis Centre, Schoeman Street, Heidelberg 1438, Gauteng</p>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>
+            © 2026 Heidelberg Spoken Word Christian Fellowship
+        </p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
