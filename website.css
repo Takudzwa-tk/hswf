@@ -88,24 +88,28 @@ nav a:hover{
     align-items:center;
     justify-content:center;
     text-align:center;
-    color:white;
+    color:rgba(248, 244, 244, 0.993), 0.993), 0.993)0.993), 0.993), 0.993)
     padding:20px;
 }
 
 .hero-content{
-    background:rgba(0,0,0,0.6);
-    padding:40px;
-    border-radius:10px;
+    background:rgba(0,0,0,0.65);
+    padding:50px;
+    border-radius:20px;
+    color:white;
+    max-width:900px;
 }
 
-.hero h2{
-    font-size:48px;
-    margin-bottom:15px;
-}
-
-.hero p{
-    font-size:20px;
+.hero-content h2{
+    color:white;
+    font-size:60px;
     margin-bottom:20px;
+}
+
+.hero-content p{
+    color:#f3f4f6;
+    font-size:22px;
+    line-height:1.7;
 }
 
 .hero button{
@@ -153,7 +157,7 @@ section h2{
 }
 
 .card{
-    background:white;
+    background:rgb(236, 180, 57);
     padding:30px;
     width:250px;
     border-radius:10px;
