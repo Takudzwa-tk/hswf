@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Songs - Heidelberg Spoken Word</title>
+    <link rel="stylesheet" href="website.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="logo-section">
+            <img src="logo.png" class="logo-image">
+            <div>
+                <h1 class="site-title">Songs</h1>
+                <p class="motto">Special songs and highlights</p>
+            </div>
+        </div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="sermons.html">Sermons</a>
+        </nav>
+    </header>
+
+    <main class="clips-page">
+        <section>
+            <h2>Song Clips</h2>
+            <p>Add a YouTube video with start and end times to show just the song portion.</p>
+
+            <div class="clip-player">
+                <iframe id="clip-iframe-songs" width="100%" height="400" src="" title="Clip Player"
+                        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+
+            <ul id="clips-list-songs" class="clips-list"></ul>
+
+            <form id="add-clip-form-songs" class="clip-form">
+                <h3>Add Song Clip(s) (paste one or more YouTube URLs, separated by newline)</h3>
+                <label>Clip name (optional)<br><input type="text" id="clip-name-songs" placeholder="e.g. Sunday Worship - Song 1"></label>
+                <label>YouTube URL(s)<br><textarea id="clip-url-songs" required placeholder="https://youtube.com/watch?v=...\nhttps://youtu.be/..." rows="3"></textarea></label>
+                <button type="submit">Add Clip(s)</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2026 Heidelberg Spoken Word Christian Fellowship</p>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="clips.js"></script>
+</body>
+</html>
